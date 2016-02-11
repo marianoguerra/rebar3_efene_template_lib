@@ -10,3 +10,4 @@
 {template, "fn_lib_gitignore", "{{name}}/.gitignore"}.
 {template, "fn_lib_LICENSE", "{{name}}/LICENSE"}.
 {template, "fn_lib_README.rst", "{{name}}/README.rst"}.
+{template, "fn_lib_Makefile", "{{name}}/Makefile"}.
