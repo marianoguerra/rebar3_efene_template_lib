@@ -1,6 +1,5 @@
 BASEDIR = $(shell pwd)
 REBAR = rebar3
-LIBPATH = $(BASEDIR)/_build/default/lib/{{ name }}
 
 .PHONY: compile clean test shell
 
@@ -14,4 +13,4 @@ test:
 	$(REBAR) ct
 
 shell:
-	$(BASEDIR)/_build/default/plugins/efene/fnshell -pz $(LIBPATH)/ebin/
+	$(BASEDIR)/_build/default/plugins/efene/fnshell -pz $(BASEDIR)/_build/default/lib/*/ebin/
