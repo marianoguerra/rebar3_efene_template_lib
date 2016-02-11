@@ -1,0 +1,4 @@
+
+fn add @public case A, B:
+  A + B
+end

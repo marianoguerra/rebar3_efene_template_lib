@@ -1,0 +1,12 @@
+{description, "Complete OTP Library application (no processes) structure"}.
+{variables, [
+    {name, "mylib", "Name of the OTP library application"},
+    {desc, "An OTP library", "Short description of the app"}
+]}.
+{template, "fn_lib_mod.fn", "{{name}}/src/{{name}}.fn"}.
+{template, "fn_lib.app.src", "{{name}}/src/{{name}}.app.src"}.
+{template, "fn_lib_suite.fn", "{{name}}/test/{{name}}_SUITE.fn"}.
+{template, "fn_lib_rebar.config", "{{name}}/rebar.config"}.
+{template, "fn_lib_gitignore", "{{name}}/.gitignore"}.
+{template, "fn_lib_LICENSE", "{{name}}/LICENSE"}.
+{template, "fn_lib_README.rst", "{{name}}/README.rst"}.
