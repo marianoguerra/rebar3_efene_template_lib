@@ -13,4 +13,4 @@ test:
 	$(REBAR) ct
 
 shell:
-	$(BASEDIR)/_build/default/plugins/efene/fnshell -pz $(BASEDIR)/_build/default/lib/*/ebin/
+	$(REBAR) efene shell
